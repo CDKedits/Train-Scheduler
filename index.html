@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Train Schedule</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div id="mainhead">
+    <h1>Trains That Can Take You Anywhere!</h1>
+    <h3>(Unless You're Broke)</h3>
+  </div>
+
+  <div id="addtrain">
+    <h2 id="formhead">Add Train</h1>
+      <form>
+        <label for="name">Train Name</label>
+        <input type="text" class="train-name">
+
+        <label for="destination">Destination</label>
+        <input type="text" class="destination">
+
+        <label for="firsttime">First Train Time (HH:mm - military time)</label>
+        <input type="text" class="train-time">
+
+        <label for="frequency">Frequency (min)</label>
+        <input type="text" class="frequency">
+
+        <button id="submit">Submit</button>
+      </form>
+  </div>
+
+  <table class="schedule"></table>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+  <script src="./assets/javascript/app.js"></script>
+</body>
+
+</html>

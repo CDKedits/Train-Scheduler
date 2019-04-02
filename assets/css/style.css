@@ -1,0 +1,83 @@
+body {
+  width: 960px;
+  background-color: lightgray;
+  margin: auto;
+}
+
+#mainhead {
+  width: 960px;
+  background-color: white;
+  border: 2px solid #1BB3F5;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#addtrain {
+  text-align: left;
+  width: 960px;
+  background: white;
+  margin-top: 30px;
+  border: 2px solid #1BB3F5;
+}
+
+input, label {
+  display: block;
+  width: 94%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#formhead {
+  background: #1BB3F5;
+  padding: 8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  ;
+}
+
+#submit {
+  margin: 20px;
+  background: #1BB3F5;
+  border: none;
+  padding: 5px;
+}
+
+#submit:hover {
+  background: #AFAFAF;
+}
+
+.schedule {
+  text-align: left;
+  width: 960px;
+  background: white;
+  margin-top: 30px;
+  border: 2px solid #1BB3F5;
+}
+
+#schedhead {
+  background: #1BB3F5;
+  font-weight: bold;
+  text-align: center;
+}
+
+th {
+  padding: 8px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #AFAFAF;
+}
